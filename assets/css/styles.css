@@ -134,7 +134,10 @@ footer a {
 .desktop_navigation a:hover {
     text-shadow: 0 0 5px white;
 }
-
+.desktop_navigation .active {
+    display: block;
+    color: #FF7A05;
+}
 
 /*Mobile Navigation*/
 .mobile {
