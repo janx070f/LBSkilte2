@@ -7,6 +7,7 @@
 
 * {
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -80,6 +81,13 @@ footer a {
     height: 100%;
     max-height: 300px;
 }
+    .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*width: 50%;*/
+}
+
 
 /*#region Navigation */
 
@@ -337,6 +345,8 @@ input[type=submit] {
     width: 95%;
     height: 370px;
 }
+
+
 
     .modals p {
         color: #000000;
