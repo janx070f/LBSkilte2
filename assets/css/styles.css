@@ -81,11 +81,12 @@ footer a {
     height: 100%;
     max-height: 300px;
 }
-    .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  /*width: 50%;*/
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 50%;*/
 }
 
 
@@ -131,13 +132,14 @@ footer a {
         display: none;
     }
 
-.desktop_navigation a:hover {
-    text-shadow: 0 0 5px white;
-}
-.desktop_navigation .active {
-    display: block;
-    color: #FF7A05;
-}
+    .desktop_navigation a:hover {
+        text-shadow: 0 0 5px white;
+    }
+
+    .desktop_navigation .active {
+        display: block;
+        color: #FF7A05;
+    }
 
 /*Mobile Navigation*/
 .mobile {
@@ -481,8 +483,8 @@ button.button {
             transform: translateY(-50%);
             border-top-right-radius: 10px;
             border-bottom-right-radius: 10px;
-			opacity: 0.5;
-  			filter: alpha(opacity=100);
+            opacity: 0.5;
+            filter: alpha(opacity=100);
         }
 
         .galleryContainer .slideShowContainer .rightArrow {
@@ -532,7 +534,7 @@ button.button {
         font-size: 20px;
         text-align: center;
         width: 100%;
-        background:#1E1E1E;
+        background: #1E1E1E;
         height: 50px;
         line-height: 50px;
         overflow: hidden;
@@ -566,7 +568,7 @@ button.button {
             }
 
             .galleryContainer #dotsContainer .dots:hover, .galleryContainer #dotsContainer .dots.active {
-                background-color:#FF7A05;
+                background-color: #FF7A05;
             }
 
 
@@ -728,15 +730,19 @@ button.button {
     .Box a {
         color: #000000;
     }
+
 .Hero {
     padding: 1%;
 }
+
 .Hero-Text {
     padding: 2%;
 }
-.Hero-Text p {
-     color: #000000;
-}
+
+    .Hero-Text p {
+        color: #000000;
+    }
+
 @media only screen and (max-width:768px) {
     /* For mobile phones: */
     .Box {
