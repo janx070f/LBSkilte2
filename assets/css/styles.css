@@ -725,6 +725,9 @@ button.button {
     .Box a {
         color: #000000;
     }
+.Hero {
+    padding: 1%;
+}
 .Hero-Text {
     padding: 2%;
 }
