@@ -53,7 +53,7 @@ footer {
 	}
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1199px) {
 	.grid-container {
 	    grid-template-areas:
 		'navi navi navi'
