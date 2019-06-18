@@ -471,7 +471,7 @@ button.button {
 
         .galleryContainer .slideShowContainer .leftArrow, .galleryContainer .slideShowContainer .rightArrow {
             width: 50px;
-            background: #000036;
+            background: gray;
             position: absolute;
             left: 0;
             z-index: 1;
@@ -481,6 +481,8 @@ button.button {
             transform: translateY(-50%);
             border-top-right-radius: 10px;
             border-bottom-right-radius: 10px;
+			opacity: 0.5;
+  			filter: alpha(opacity=100);
         }
 
         .galleryContainer .slideShowContainer .rightArrow {
@@ -493,7 +495,7 @@ button.button {
         }
 
             .galleryContainer .slideShowContainer .leftArrow:hover, .galleryContainer .slideShowContainer .rightArrow:hover {
-                background: #0000a8;
+                background: #FF7A05;
                 cursor: pointer;
             }
 
