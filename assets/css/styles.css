@@ -68,6 +68,11 @@ footer a {
     color: white;
 }
 
+.width {
+    width: 50%;
+    max-height: 98%
+}
+
 .responsive {
     width: 100%;
     max-width: 200px;
@@ -88,6 +93,8 @@ footer a {
     margin-right: auto;
     /*width: 50%;*/
 }
+
+
 
 
 /*#region Navigation */
@@ -220,6 +227,7 @@ footer a {
     background-color: #f2f2f2;
     padding: 20px;
     margin: 10px;
+    height: 400px;
     width: 95%;
 }
 
@@ -348,7 +356,7 @@ input[type=submit] {
     padding: 20px;
     margin: 10px;
     width: 95%;
-    height: 390px;
+    height: 400px;
 }
 
 
@@ -425,7 +433,6 @@ button.button {
     max-width: 1000px;
     margin: auto;
     user-select: none;
-    /*box-shadow: 0px 0px 3px 1px #000078;*/
     box-shadow: 0px 0px 3px 1px #FF7A05;
     padding: 10px;
     box-sizing: border-box;

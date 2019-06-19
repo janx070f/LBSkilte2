@@ -24,7 +24,7 @@ footer {
     position: static;
     bottom: 0;
 }
-main{ margin-top: 30px;}
+main{ margin-top: 3px;}
 .grid-container {
     display: grid;
     grid-template-areas:
