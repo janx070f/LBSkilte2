@@ -1,11 +1,13 @@
 ﻿<!DOCTYPE html>
 <html lang="da" dir="ltr">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" rel="stylesheet">
-   
+
     <link href="assets/css/grid1.css" rel="stylesheet">
     <link href="assets/css/styles.css" rel="stylesheet">
     <!--<script src="assets/js/script.js"></script>-->
@@ -17,7 +19,8 @@
 
 
     <header>
-        <a href="index.html"><img src="assets/images/logo.png" alt="logo"></a> <h1>Vi skilter med skilte</h1>
+        <a href="index.html"><img src="assets/images/logo.png" alt="logo"></a>
+        <h1>Vi skilter med skilte</h1>
     </header>
     <div class="grid-container">
         <!-- #region NAVIGATION -->
@@ -40,10 +43,10 @@
                         <a href="prod.html"><i class="fas fa-archive"></i> Produkter</a>
                     </div>
                     <div>
-                        <a  href="ref.html"><i class="fas fa-user-edit"></i> Referencer</a>
+                        <a href="ref.html"><i class="fas fa-user-edit"></i> Referencer</a>
                     </div>
                     <div>
-                        <a  href="firma.html"><i class="fas fa-address-card"></i> Om LB-Skilte</a>
+                        <a href="firma.html"><i class="fas fa-address-card"></i> Om LB-Skilte</a>
                     </div>
                     <div>
                         <a href="kontakt.html"><i class="fas fa-envelope-open-text"></i> Kontakt</a>
@@ -58,160 +61,151 @@
                 <li class="mobileNav_item"><a href="index.html"><i class="fa fa-fw fa-home"></i> Forside</a></li>
                 <li class="mobileNav_item"><a href="prod.html"><i class="fas fa-archive"></i> Produkter</a></li>
                 <li class="mobileNav_item"> <a href="ref.html"><i class="fas fa-user-edit"></i> Referencer</a></li>
-                <li class="mobileNav_item"> <a href="firma.html"><i class="fas fa-address-card"></i> Om LB-Skilte</a></li>
-                <li class="mobileNav_item"> <a href="kontakt.html"><i class="fas fa-envelope-open-text"></i> Kontakt</a></li>
+                <li class="mobileNav_item"> <a href="firma.html"><i class="fas fa-address-card"></i> Om LB-Skilte</a>
+                </li>
+                <li class="mobileNav_item"> <a href="kontakt.html"><i class="fas fa-envelope-open-text"></i> Kontakt</a>
+                </li>
             </ul>
         </nav>
 
         <!-- #mikkel forside start -->
 
         <main class="main">
-
             <div class="Hero">
-                <img class="center" src="assets/images/fb/17903706_1330028677086055_6715561279848762531_n.jpg" style="height: 300px; width: 95%;"  alt="hero" >
+                <img class="center" src="assets/images/fb/17903706_1330028677086055_6715561279848762531_n.jpg"
+                    style="height: 300px; width: 95%;" alt="hero">
                 <div class="Hero-Text">
                     <h2>Vores nye medarbejder</h2>
                     <p>Se vores nye medarbejder, Roll-X!</p>
                 </div>
             </div>
+            <div class="karruselboks">
+                <div class="billeder">
+                    <img src="img/img1.jpg" alt="img1">
+                    <p class="billedtekst">Vi bygger nyt</p>
+                </div>
+                <div class="billeder">
+                    <img src="img/img2.jpg" alt="img2">
+                    <p class="billedtekst">Folie</p>
+                </div>
+                <div class="billeder">
+                    <img src="img/img3.jpg" alt="img3">
+                    <p class="billedtekst">Reklamer</p>
+                </div>
+                <div class="billeder">
+                    <img src="img/img4.jpg" alt="img4">
+                    <p class="billedtekst">Facader</p>
+                </div>
+                <div class="billeder">
+                    <img src="img/img5.JPG" alt="img5">
+                    <p class="billedtekst">Autoreklamer</p>
+                </div>
+                <div class="billeder">
+                    <img src="assets/images/IMG_0998.JPG" alt="img6">
+                    <p class="billedtekst">Skilte</p>
+                </div>
+                <div class="billeder">
+                    <img src="img/img7.jpg" alt="img7">
+                    <p class="billedtekst">Pyloner og Skilte</p>
+                </div>
+                <div class="billeder">
+                    <img src="assets/images/IMG_0813.JPG" alt="img8">
+                    <p class="billedtekst">Alle former for reklame til enhver smag</p>
+                </div>
+                <a class="forrige" onclick="nytBilled(-1)"><i class="fas fa-chevron-circle-left"></i></a>
+                <a class="naeste" onclick="nytBilled(1)"><i class="fas fa-chevron-circle-right"></i></a>
+            </div>
+            <div class="indikator" style="text-align: center">
+                <span class="cirkler" onclick="vistbilled(1)"></span>
+                <span class="cirkler" onclick="vistbilled(2)"></span>
+                <span class="cirkler" onclick="vistbilled(3)"></span>
+                <span class="cirkler" onclick="vistbilled(4)"></span>
+                <span class="cirkler" onclick="vistbilled(5)"></span>
+                <span class="cirkler" onclick="vistbilled(6)"></span>
+                <span class="cirkler" onclick="vistbilled(7)"></span>
+                <span class="cirkler" onclick="vistbilled(8)"></span>
+            </div>
 
-            <div class="galleryContainer">
-                <div class="slideShowContainer">
-                    <div id="playPause" onclick="playPauseSlides()"></div>
-                    <div onclick="plusSlides(-1)" class="nextPrevBtn leftArrow"><span class="arrow arrowLeft"></span></div>
-                    <div onclick="plusSlides(1)" class="nextPrevBtn rightArrow"><span class="arrow arrowRight"></span></div>
-                    <div class="captionTextHolder"><p class="captionText slideTextFromTop"></p></div>
 
-                    <div class="imageHolder">
-                        <img src="img/img1.jpg" alt="img1">
-                        <p class="captionText">Vi bygger nyt</p>
+            <div class="Boxe">
+
+                <div class="Box">
+                    <div class="BoxBody">
+                        <div>
+                            <img src="assets/images/logo.jpg" alt="logo" style="height: 240px; width: 320px;">
+                        </div>
+                        <div class="Box-Text">
+                            <h4>Galleri</h4>
+                            <p>Se de mange produkter vi har lavet for tidligere kunder, i vores Galleri</p>
+                        </div>
+                        <div class="Box-Button">
+                            <a href="ref.html">
+
+
+                                "Læs mere"
+                            </a>
+                        </div>
                     </div>
-
-                    <div class="imageHolder">
-                        <img src="img/img2.jpg" alt="img2">
-                        <p class="captionText">Folie</p>
-                    </div>
-
-                    <div class="imageHolder">
-                        <img src="img/img3.jpg" alt="img3">
-                        <p class="captionText">Reklamer</p>
-                    </div>
-
-                    <div class="imageHolder">
-                        <img src="img/img4.jpg" alt="img4">
-                        <p class="captionText">Facader</p>
-                    </div>
-
-                    <div class="imageHolder">
-                        <img src="img/img5.JPG" alt="img5">
-                        <p class="captionText">Autoreklamer</p>
-                    </div>
-
-                    <div class="imageHolder">
-                        <img src="assets/images/IMG_0998.JPG" alt="img6">
-                        <p class="captionText">Skilte</p>
-                    </div>
-
-                    <div class="imageHolder">
-                        <img src="img/img7.jpg" alt="img7">
-                        <p class="captionText">Pyloner og Skilte</p>
-                    </div>
-
-                    <div class="imageHolder">
-                        <img src="assets/images/IMG_0813.JPG" alt="img8">
-                        <p class="captionText">Alle former for reklame til enhver smag</p>
-                    </div>
-
-
-
                 </div>
 
+                <div class="Box">
+                    <div class="BoxBody">
+                        <div>
+                            <img src="assets/images/IMG_0118.JPG" alt="skilte">
+                        </div>
+                        <div class="Box-Text">
+                            <h4>Skilte</h4>
+                            <p>Hos LB-Skilte laver vi skilte til ethvert formål. læs mere på vores Produkt side, </p>
+                        </div>
+                        <div class="Box-Button">
+                            <a href="prod.html">
 
 
-                <div id="dotsContainer"></div>
+                                "Læs mere"
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="Box">
+                    <div class="BoxBody">
+                        <div>
+                            <img src="assets/images/IMG_0197.JPG" alt="facade">
+                        </div>
+                        <div class="Box-Text">
+                            <h4>Facader</h4>
+                            <p>Facader er en vigtig del af markedsføring og skal derfor afspejle firmaet</p>
+                        </div>
+                        <div class="Box-Button">
+                            <a href="prod.html">
+
+                                "Læs mere"
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="Box">
+                    <div class="BoxBody">
+                        <div>
+                            <img src="assets/images/IMG_0257.JPG" alt="pizzabil">
+                        </div>
+                        <div class="Box-Text">
+                            <h4>Autoreklamer</h4>
+                            <p>Gør din bil til et kørende reklameskilt for din virksomhed</p>
+                        </div>
+                        <div class="Box-Button">
+                            <a href="prod.html">
+
+                                "Læs mere"
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
             </div>
-        </main>
     </div>
-
-    <div class="Boxe">
-
-        <div class="Box">
-            <div class="BoxBody">
-                <div>
-                    <img src="assets/images/logo.jpg" alt="logo" style="height: 240px; width: 320px;">
-                </div>
-                <div class="Box-Text">
-                    <h4>Galleri</h4>
-                    <p>Se de mange produkter vi har lavet for tidligere kunder, i vores Galleri</p>
-                </div>
-                <div class="Box-Button">
-                    <a href="ref.html">
-
-
-                        "Læs mere"
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <div class="Box">
-            <div class="BoxBody">
-                <div>
-                    <img src="assets/images/IMG_0118.JPG" alt="skilte">
-                </div>
-                <div class="Box-Text">
-                    <h4>Skilte</h4>
-                    <p>Hos LB-Skilte laver vi skilte til ethvert formål. læs mere på vores Produkt side, </p>
-                </div>
-                <div class="Box-Button">
-                    <a href="prod.html">
-
-
-                        "Læs mere"
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <div class="Box">
-            <div class="BoxBody">
-                <div>
-                    <img src="assets/images/IMG_0197.JPG" alt="facade">
-                </div>
-                <div class="Box-Text">
-                    <h4>Facader</h4>
-                    <p>Facader er en vigtig del af markedsføring og skal derfor afspejle firmaet</p>
-                </div>
-                <div class="Box-Button">
-                    <a href="prod.html">
-
-                        "Læs mere"
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <div class="Box">
-            <div class="BoxBody">
-                <div>
-                    <img src="assets/images/IMG_0257.JPG" alt="pizzabil">
-                </div>
-                <div class="Box-Text">
-                    <h4>Autoreklamer</h4>
-                    <p>Gør din bil til et kørende reklameskilt for din virksomhed</p>
-                </div>
-                <div class="Box-Button">
-                    <a href="prod.html">
-
-                        "Læs mere"
-                    </a>
-                </div>
-            </div>
-        </div>
-
-    </div>
+    </main>
     <!-- #Mikkel forside slut -->
     <footer>
 
@@ -228,8 +222,12 @@
                 <li>
                     <p><i class="fas fa-map-marker-alt"></i><span> Glentevænget 1, 8464 Galten</span></p>
                 </li>
-                <li><p><i class="fas fa-phone"></i>+4586987987 /+4520879022</p></li>
-                <li><p><i class="fas fa-envelope"></i><a href="mailto:info@lbskilte.dk"> E-mail</a></p></li>
+                <li>
+                    <p><i class="fas fa-phone"></i>+4586987987 /+4520879022</p>
+                </li>
+                <li>
+                    <p><i class="fas fa-envelope"></i><a href="mailto:info@lbskilte.dk"> E-mail</a></p>
+                </li>
             </ul>
         </div>
 
@@ -239,7 +237,8 @@
                 <span>CVR:</span>15835184
             </p>
             <div class="footer-icons">
-                <a href="https://www.facebook.com/LB-SKILTE-184065338349067/" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="https://www.facebook.com/LB-SKILTE-184065338349067/" target="_blank"><i
+                        class="fab fa-facebook fa-2x"></i></a>
                 <!--<a href="#"><i class="fab fa-twitter"></i></a>
                 <a href="#"><i class="fab fa-linkedin"></i></a>
                 <a href="#"><i class="fab fa-github"></i></a>-->
